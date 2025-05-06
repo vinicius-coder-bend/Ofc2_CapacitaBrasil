@@ -24,7 +24,7 @@ html, body {
 
     height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgb(4, 31, 2)),
-    url('./assets/pexels-lazaro-revoledo-1169948-18473260.jpg');
+    url('../assets/pexels-lazaro-revoledo-1169948-18473260.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -129,7 +129,7 @@ hr {
 .img1 {
     
     z-index: 2;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('/assets/pexels-hebaysal-773471.jpg');
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('../assets/pexels-hebaysal-773471.jpg');
     position: absolute;
     top: 103%;
     left: 21%;
@@ -155,7 +155,7 @@ hr {
 
 .img2 {
     z-index: 2;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('/assets/pexels-iloveswitzerland-58496263-7929056.jpg');
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('../assets/pexels-iloveswitzerland-58496263-7929056.jpg');
     position: absolute;
     top: 103%;
     left: 44%;
@@ -178,7 +178,7 @@ hr {
 
 .img3 {
     z-index: 2;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('/assets/pexels-victor-lavaud-302543-2419307.jpg');
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('../assets/pexels-victor-lavaud-302543-2419307.jpg');
     position: absolute;
     top: 139%;
     left: 44%;
@@ -201,7 +201,7 @@ hr {
 
 .img4 {
     z-index: 2;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('/assets/pexels-alex-ca-269738-864896.jpg');
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),url('../assets/pexels-alex-ca-269738-864896.jpg');
     position: absolute;
     top: 103%;
     left: 61.7%;

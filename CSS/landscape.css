@@ -181,7 +181,7 @@ html, body {
     flex: 1;
     height: 30rem; /* observar: mexe altura do card*/
     background: #333;
-    background-image: url('./assets/pexels-enjoyviibes-1232594.jpg');
+    background-image: url('../assets/pexels-enjoyviibes-1232594.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 24px;
@@ -197,7 +197,7 @@ html, body {
     flex: 1;
     height: 30rem; /* observar: mexe altura do card*/
     background: #333;
-    background-image: url('./assets/pexels-nanda-gopal-lakshman-1548481679-27667695.jpg');
+    background-image: url('../assets/pexels-nanda-gopal-lakshman-1548481679-27667695.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 24px;
@@ -211,7 +211,7 @@ html, body {
     flex: 1;
     height: 30rem; /* observar: mexe altura do card*/
     background: #333;
-    background-image: url('./assets/pexels-igor-vieira-da-silva-464800473-31900809.jpg');
+    background-image: url('../assets/pexels-igor-vieira-da-silva-464800473-31900809.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 24px;
@@ -225,7 +225,7 @@ html, body {
     flex: 1;
     height: 30rem; /* observar: mexe altura do card*/
     background: #333;
-    background-image: url('./assets/pexels-jean-paul-wettstein-677916508-29398663.jpg');
+    background-image: url('../assets/pexels-jean-paul-wettstein-677916508-29398663.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 24px;
@@ -239,7 +239,7 @@ html, body {
     flex: 1;
     height: 30rem; /* observar: mexe altura do card*/
     background: #333;
-    background-image: url('./assets/pexels-saurabh-deshpande-373680337-14803218.jpg');
+    background-image: url('../assets/pexels-saurabh-deshpande-373680337-14803218.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 24px;
