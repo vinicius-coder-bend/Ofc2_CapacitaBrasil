@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+}
+
+.video-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -2;
+    top: 0;
+    left: 0;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/* semelhante ao "background-size:cover" */
+}
+
+
+.video-background::after {
+    
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 40%, 
+    rgba(0, 0, 0, 0.3) 100%
+    );
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    text-align: center;
+    z-index: 2;
+    
+}
+
+.container1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    text-align: center;
+    display: flex;
+    font-size:xx-large;
+
+}
+
+.line1 {
+    font-weight: lighter;
+    color: #e2e2e2;
+    font-family: orbitron;
+    -webkit-text-stroke: 0.10rem #e2e2e2;
+    position: relative;
+    left: -16%;
+    
+}
+
+.line2 {
+    font-weight: lighter;
+    font-family: Orbitron;
+    color: transparent;
+    -webkit-text-stroke: 0.10rem #e2e2e2;
+    position: relative;
+    left: -13%;
+}
+
+.line3 {
+    font-weight: bold;
+    font-family: Orbitron;
+    color: #e2e2e2;
+    
+}
+
+.linha-ao-lado {
+    width: 0;
+    height: 34%;
+    position: absolute;
+    left: 1%;
+    top: 35%;
+    z-index: 2;
+}
+
+
+.nav-pos {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5rem;
+    
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    -webkit-backdrop-filter: none;
+    font-size: x-large;
+    backdrop-filter: blur(5px);/* aplica um leve desfoque no vídeo */
+    
+}
+    
+
+a:hover {
+    
+    background-color: rgba(114, 107, 107, 0.1);
+    transform: translateY(-3px);
+    backdrop-filter: blur(0.5rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+    border-color: rgba(255, 255, 255, 0.6);
+    
+
+}
+
+hr {
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    left: 40%;
+    
+}
+  
+html, body {
+    overflow-x: hidden;/* Vai evitar a barra de 
+    scroll horizontal na parte baixa da página*/
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.car-pos {
+   
+    position: absolute;
+    top: 23%;
+    left: 60%;
+    
+}
+
+.carrossel {
+    width: 300px; /* Obs: mexe largura do carrossel*/
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem; /* borda circular do carrossel*/
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    transition: transform 0.5s ease;
+    
+}
+
+.carda {
+    flex: 1;
+    height: 30rem; /* observar: mexe altura do card*/
+    background: #333;
+    background-image: url('/assets/pexels-enjoyviibes-1232594.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.cardb {
+    flex: 1;
+    height: 30rem; /* observar: mexe altura do card*/
+    background: #333;
+    background-image: url('/assets/pexels-nanda-gopal-lakshman-1548481679-27667695.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardc {
+    flex: 1;
+    height: 30rem; /* observar: mexe altura do card*/
+    background: #333;
+    background-image: url('/assets/pexels-igor-vieira-da-silva-464800473-31900809.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardd {
+    flex: 1;
+    height: 30rem; /* observar: mexe altura do card*/
+    background: #333;
+    background-image: url('/assets/pexels-jean-paul-wettstein-677916508-29398663.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carde {
+    flex: 1;
+    height: 30rem; /* observar: mexe altura do card*/
+    background: #333;
+    background-image: url('/assets/pexels-saurabh-deshpande-373680337-14803218.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Controles invisíveis*/
+
+input[type="radio"] {
+    display: none;
+}
+
+/* Slide Mover*/
+
+#slide1:checked ~ .slides {
+    transform: translateY(0%);
+}
+
+#slide2:checked ~ .slides {
+    transform: translateX(-20%);
+}
+
+#slide3:checked ~ .slides {
+    transform: translateX(-40%);
+}
+
+#slide4:checked ~ .slides {
+    transform: translateX(-60%);
+}
+
+#slide5:checked ~ .slides {
+    transform: translateX(-80%);
+}
+
+/*navegaçaõ do carrossel*/
+
+.nav-cards {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.nav-cards label {
+
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.nav-cards label:hover {
+  background: rgba(255, 255, 255, 0.8);      
+}

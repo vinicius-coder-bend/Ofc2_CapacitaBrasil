@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    color:azure;
+    box-sizing: border-box;
+    
+}
+
+
+html, body {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+    url('/assets/pexels-ilia-bronskiy-1137858493-30441907.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;/*corta tudo que passar da tela*/
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.faixa-esquerda {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30rem;
+    height: 100vh;
+    background-color:rgba(24, 30, 44, 0.7);
+    z-index: 1;
+    
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    text-align: center;
+    z-index: 2;
+    
+}
+
+.linha-ao-lado {
+    width: 0;
+    height: 34%;
+    position: absolute;
+    left: 1%;
+    top: 35%;
+    z-index: 2;
+}
+
+.line1 {
+    font-weight: lighter;
+    color:transparent;
+    font-family: orbitron;
+    -webkit-text-stroke: 0.10rem #e2e2e2;
+    position: relative;
+    left: -12%;
+    
+}
+
+.line2 {
+    font-weight: lighter;
+    font-family: Orbitron;
+    color: transparent;
+    -webkit-text-stroke: 0.10rem #e2e2e2;
+    position: relative;
+    left: -40%;
+}
+
+.line3 {
+    font-weight: bold;
+    font-family: Orbitron;
+    color: #e2e2e2;
+    
+}
+
+.container1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    text-align: center;
+    display: flex;
+    font-size:xx-large;
+
+}
+
+.nav-pos {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5rem;
+    
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    font-size: x-large;
+   
+}
+
+a:hover {
+
+    background-color: rgba(24, 30, 44, 0.1);
+    transform: translateY(-3px);
+    backdrop-filter: blur(0.5rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+    border-color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+
+hr {
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    left: 40%;
+    
+}
